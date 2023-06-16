@@ -4,20 +4,17 @@
   * main - Entry point here
   * Return: 0
   */
-
 int main(void)
 {
-	int lowerCase = 'a';
-	while (lowerCase <= 'z')
+	char la;
+
+	for (la = 'a'; la  <= 'z'; la++)
 	{
-		if (lowerCase == 'e' || lowerCase == 'q')
-		{
-			lowerCase += 1;
-		}
-		else
-			putchar(lowerCase);
-		lowerCase += 1;
+		if (la != 'e' &&  la != 'q')
+		putchar(la);
 	}
+
 putchar('\n');
+
 return (0);
 }
