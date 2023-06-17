@@ -32,13 +32,13 @@ int main(void)
 
 				if (c + d != 17)
 				{
-					putcher(',');
+					putchar(',');
 					putchar(' ');
 				}
 			}
 			c++;
 		}
-		d++
+		d++;
 	}
 	putchar('\n');
 	return(0);
