@@ -11,10 +11,10 @@ int main(void)
 
 	while (d < 10)
 	{
-		c =0;
+		c = 0;
 		while (c < 10)
 		{
-			if (d !=c && d < c)
+			if (d != c && d < c)
 			{
 				putchar('0' + d);
 				putchar('0' + c);
@@ -30,5 +30,5 @@ int main(void)
 		d++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
