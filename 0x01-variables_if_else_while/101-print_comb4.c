@@ -1,40 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
   * main - Entry point
   * Return: 0
   */
 int main(void)
 {
-	int c;
-	int d;
-	int e = 0;
+	int d, p, q;
 
-	while (e < 10)
+	for (d = '0'; d < '9'; d++)
 	{
-		d = 0;
-		while (d < 10)
+		for (p = d + 1; p <='9'; p++)
 		{
-			c = 0;
-			while (c < 10)
+			for (q = p + 1; q <= '9'; q++)
 			{
-				if (c != d && d != e && e < d && d < c)
-					putchar('0' + e);
-				putchar('0' + d);
-				putchar('0' + c);
-
-				if (c + d + e != 9 + 8 + 7)
+				if ((p != d) != q)
 				{
+					putchar(d);
+					putchar(p);
+					putchar(q);
+					if (d == '7' && p == '8')
+						continue;
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			c++;
 		}
-		d++;
 	}
-	e++;
 
-putchar('\n');
-return (0);
-}
+	putchar('\n');
+	return (0);
+
