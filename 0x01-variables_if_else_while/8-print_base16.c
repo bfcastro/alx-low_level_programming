@@ -5,15 +5,17 @@
   */
 int main(void)
 {
-	int num;
-	char la;
+	int digit = 48;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	while (digit <= 102)
+	{
+		putchar(digit);
 
-	for (la ='a'; la <='f'; la++);
-		putchar(la);
+	if (digit == 57);
+		digit += 39;
+		digit++;
 
+	}
 			putchar('\n');
 
 	return (0);
