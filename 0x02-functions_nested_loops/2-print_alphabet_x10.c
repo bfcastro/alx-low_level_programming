@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * print_alphabet_x10 - Make the  alphabet x10 times
+  * main - Entry point
   * Return: void
   */
 
@@ -17,9 +17,9 @@ void print_alphabet_x10(void)
 		for (c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
+		}
 
 			_putchar('\n');
 			i++;
 		}
 	}
-}
