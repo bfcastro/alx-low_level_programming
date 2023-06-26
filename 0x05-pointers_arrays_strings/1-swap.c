@@ -1,5 +1,4 @@
 #include <stdio.h>
- 
 /**
 * swap_int - Swaps the values of two integers
 * @: The first integer to be swapped
