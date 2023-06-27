@@ -58,6 +58,7 @@ if (sum != 2772)
 		}
 
 	}
+}
 
 printf("%s", password);
 return (0);
