@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
   * _strncat - Concatenates two strings using at most
@@ -28,5 +29,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest[dest_len++] = src[index];
 	}
+
 	return (dest);
 }
