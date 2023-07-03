@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-  * _strtrt - Entry point
+  * _strstr - Entry point
   * @haystack: input here
   * @needle: input here
   * Return: Always 0 (Success)
