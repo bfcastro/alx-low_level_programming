@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-   
+
 /**
-  * main - Prints its name
+  * main - Prints the number of args
   * @argc: argument count
   * @argv: argument vector
   *
-  * Return: Always zero
+  * Return: Always 0
   */
 int main(int argc, char *argv[])
 {
