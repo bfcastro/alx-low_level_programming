@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
-  * add_nodeint - adds a new node at the begining 
+  * add_nodeint - adds a new node at the begining
   * @head: pointer to the first node
   * @n: data to insert in that new node
-  * 
+  *
   * Return: pointer to the new node or NULL
   */
 listint_t *add_nodeint(listint_t **head, const int n)
