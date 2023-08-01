@@ -21,6 +21,8 @@ slow = slow->next;
 if (fast == slow)
 {
 slow = head;
+while (slow != fast)
+{
 slow = slow->next;
 fast = fast->next;
 }
